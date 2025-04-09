@@ -52,7 +52,7 @@ class GamePlay:
         # because all the dice need to have the same faces, it's arbitrary to pick the first one of the list
         # any dice needs to equal any other dice
         for die in self.listofdice:
-            if (die != self.listofdice[0]):
+            if (all(die.show_current_state().index != self.listofdice[0].show_current_state().index)):
                 raise ValueError("All dice need the same faces")
     
     def play_dice(self, numrolls):
