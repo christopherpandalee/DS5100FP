@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import unittest
-from montecarlo import CreateDice, GamePlay, AnalyzePlay
+from montecarlosim.montecarlo import CreateDice, GamePlay, AnalyzePlay
 
 
 class MCTestSuite(unittest.TestCase):
