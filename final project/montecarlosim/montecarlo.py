@@ -41,7 +41,7 @@ class CreateDice:
         PURPOSE: Changes the weight of a certain die face
         
         INPUTS:
-        face2change - a matching face of instantiated die
+        face2change - a matching face of instantiated die, data type dependent on die face
                     - throws error if this input does not match any of the faces of the die
         newWeight - int or float
                   - desired new weight for the die face being changed
