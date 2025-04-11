@@ -31,12 +31,14 @@ Synopsis:
     * analyzeplaydice.find_face_counts()
     
 API Description:
+
 CreateDice(np.array([]))
 
 PURPOSE: Creates a dice. Initializes using faces listed in a numpy array.
 
 METHODS:
 - .change_weights(face2change, newWeight)
+
     PURPOSE: CreateDie class initializer. Throws error if input is not a numpy array 
     or the die does not have all different faces.
 
@@ -49,13 +51,18 @@ METHODS:
     Note: Instantiates die class as a pd.DataFrame
     
 - .roll_dice(rolls=1)
+
     PURPOSE: Changes the weight of a certain die face
 
     INPUTS:
     face2change - a matching face of instantiated die
+    
                 - throws error if this input does not match any of the faces of the die
+                
     newWeight - int or float
+    
               - desired new weight for the die face being changed
+              
               - throws error if new weight is not int or float
 
     OUTPUT:
@@ -64,6 +71,7 @@ METHODS:
     Note: This method will change the instantiated die dateframe.
     
 - .show_current_state()
+
     PURPOSE: Rolls die the inputted amount of times. Defaults to 1 roll.
 
     INPUT: 
