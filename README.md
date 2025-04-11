@@ -1,6 +1,7 @@
-# DS5100FP
+# Spring 2025 Final Project - A Monte Carlo Simulator
 
 Metadata
+
 Project title: Spring 2025 DS5100 Final Project - Monte Carlo Simulator 
 
 Author: Christopher Lee
